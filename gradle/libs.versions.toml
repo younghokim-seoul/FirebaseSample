@@ -38,6 +38,9 @@ corektx = "1.15.0"
 fragmentKtx = "1.8.5"
 lifecycle = "2.8.7"
 
+sdp ="1.1.0"
+ssp ="1.1.0"
+
 [libraries]
 agp = { module = "com.android.tools.build:gradle", version.ref = "gradleplugin" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -65,6 +68,12 @@ kotlin-coroutines = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutine
 kotlin-datetime = { group = "org.jetbrains.kotlinx", name = "kotlinx-datetime", version.ref = "kotlinx-datetime" }
 
 timber = { module = "com.jakewharton.timber:timber", version.ref = "timber" }
+
+
+ssp = { module = "com.intuit.ssp:ssp-android", version.ref = "ssp" }
+sdp = { module = "com.intuit.sdp:sdp-android", version.ref = "sdp" }
+
+
 
 hilt = { module = "com.google.dagger:hilt-android", version.ref = "dagger-hilt" }
 hilt-ksp = { module = "com.google.dagger:hilt-compiler", version.ref = "dagger-hilt" }

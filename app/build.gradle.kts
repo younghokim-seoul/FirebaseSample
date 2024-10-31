@@ -61,4 +61,7 @@ dependencies {
     implementation(libs.bundles.firebase)
 
     implementation(libs.firebase.messaging.lifecycle.ktx)
+
+    implementation(libs.ssp)
+    implementation(libs.sdp)
 }
